@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Futura Book';
+  src: url('./fonts/futura-book-webfont.woff2') format('woff2'),
+       url('./fonts/futura-book-webfont.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Futura Heavy';
+  src: url('./fonts/futura-heavy-webfont.woff2') format('woff2'),
+       url('./fonts/futura-heavy-webfont.woff') format('woff');
+  font-style: bold;
+}
+* {font-family: 'Futura Book', Arial, sans-serif}
+.absolute-top {
+  top: 0;
+  position: absolute;
+}
+.absolute-bottom {
+  bottom: 0;
+  position: absolute;
+}
+.logo {
+  width: auto;
+  height: 15vh;
+}
+.navbar-brand > img {
+  width: auto;
+  height: 55px;
+}
+.program-logo {
+  width: auto;
+  height: 20vh;
+}
+nav {
+  background-color: white;
+  box-shadow: 0px 1px 10px 0px #4191B4;
+}
+.bg-image {
+  background: url('../imgs/bwnf-3.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+footer {
+  padding-top: 10px;
+  line-height: 1.25;
+}
+.login-divider  hr {
+  width: 42.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: .25px solid rgba(134, 142, 150, .25);
+}
+.main-hr {width: 0}
+.interests {padding-left: 25px}
+.profile-picture {height: 25vh}
+.font-book {font-family: 'Futura Book', Arial, sans-serif}
+.font-heavy {font-family: 'Futura Heavy', Arial, sans-serif}
+body {overflow-x: hidden}
+.padding-top {padding-top: 95px}
+.left-hr {float: left}
+.right-hr {float: right}
+.logo-buffer {height: 10px}
+a:hover {text-decoration: none}
+input {text-align: center}
+.fa-bars, a {color: rgba(65, 145, 180, .95)}
+.fa-bars:hover, a:hover {color: rgba(65, 145, 180, 1)}
+.bg-google {background-color: #EA4335}
+.bg-fb {background-color: #3B5998}
+.full-width {width: 100vw}
+.full-height {height: 100vh}
+.card-header {cursor: pointer}
+/* #programs {background-image: linear-gradient(to top, #4191B4 5%, white 100%)}
+#formula {background-image: linear-gradient(to top, white 0%, #4191B4 95%)} */
